@@ -37,3 +37,23 @@
 .App {
   margin-top: 64px; /* Ajusta este valor según la altura de tu Navbar */
 }
+
+.hero,
+.contact,
+.therapies,
+.evaluations,
+.others {
+  padding-top: 64px; /* Padding superior para evitar que quede oculto detrás de la navbar */
+  padding-bottom: 20px; /* Espacio inferior */
+  min-height: auto; /* Cambiar a auto para adaptarse al contenido */
+  box-sizing: border-box; /* Para incluir padding en el tamaño total */
+}
+
+/* Puedes aplicar estilos específicos para cada sección */
+.hero {
+  background-color: #f0f8ff; /* Un color suave para la sección de inicio */
+}
+
+.contact {
+  background-color: #e6f7ff; /* Color suave para la sección de contacto */
+}
