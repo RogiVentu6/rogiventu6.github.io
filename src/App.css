@@ -33,3 +33,7 @@
   font-size: 1.1rem;
   color: #4d6467;
 }
+
+.App {
+  margin-top: 64px; /* Ajusta este valor según la altura de tu Navbar */
+}
